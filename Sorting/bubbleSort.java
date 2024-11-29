@@ -1,4 +1,3 @@
-package JAVADSA.Sorting;
 
 public class bubbleSort {
     public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class bubbleSort {
 
     static void sort(int[] array) {
         for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length - 1 - i; j++) { // Corrected the inner loop condition
+            for (int j = 0; j < array.length - 1 - i; j++) { 
                 if (array[j] > array[j + 1]) {
                     swap(j, array);
                 }
